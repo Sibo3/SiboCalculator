@@ -1,7 +1,7 @@
 <?php 
-function first(): void 
+function first(string $text): void 
 {
     
-    echo ('hello function');
-    
+    echo ($text);
 }
+first('param3ter');
